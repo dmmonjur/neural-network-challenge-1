@@ -12,7 +12,7 @@ This project aims to predict the likelihood of successful loan repayment using a
 - [Evaluation Metrics](#evaluation-metrics)
 - [Results](#results)
 - [Future Work](#future-work)
-- [License](#license)
+
 
 ## Installation
 To run this project, you need to have the following libraries installed:
@@ -84,7 +84,7 @@ The model achieved the following metrics on the test data:
 A classification report is generated to show precision, recall, and F1-score for each class.
 Future Work
 
-## Future improvements may include:
+## Future Work:
 
     Experimenting with different neural network architectures.
     Fine-tuning hyperparameters to enhance model performance.
