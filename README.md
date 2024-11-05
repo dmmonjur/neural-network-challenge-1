@@ -29,7 +29,7 @@ To run this project, you need to have the following libraries installed:
     Run the Python script to train the neural network model and evaluate its performance.
 ## Data Description
 
-The dataset consists of the following columns:
+    The dataset consists of the following columns:
 
     payment_history: The payment history of the loan.
     location_parameter: Geographical data related to the borrower.
@@ -46,43 +46,44 @@ The dataset consists of the following columns:
 
 ## Model Architecture
 
-The model is a deep neural network with the following architecture:
+    The model is a deep neural network with the following architecture:
 
     Input layer with features derived from the dataset.
     Two hidden layers with ReLU activation functions.
     Output layer with a single neuron using the sigmoid activation function to output probabilities for binary classification.
 
 Model Summary
-Model: "sequential"
-_________________________________________________________________
- Layer (type)                Output Shape              Param #
-=================================================================
- dense (Dense)               (None, 10)                120
- dense_1 (Dense)             (None, 5)                 55
- dense_2 (Dense)             (None, 1)                 6
-=================================================================
-Total params: 181
-Trainable params: 181
-Non-trainable params: 0
-_________________________________________________________________
+
+    Model: "sequential"
+    _________________________________________________________________
+    Layer (type)                Output Shape              Param #
+    =================================================================
+    dense (Dense)               (None, 10)                120
+    dense_1 (Dense)             (None, 5)                 55
+    dense_2 (Dense)             (None, 1)                 6
+    =================================================================
+    Total params: 181
+    Trainable params: 181
+    Non-trainable params: 0
+    _________________________________________________________________
 
 
 ## Evaluation Metrics
 
-The model's performance was evaluated using:
+    The model's performance was evaluated using:
 
     Loss: Binary Crossentropy
     Accuracy: Overall accuracy of predictions on the test dataset
 
 ## Results
 
-The model achieved the following metrics on the test data:
+    The model achieved the following metrics on the test data:
 
     Loss: 0.5266
     Accuracy: 0.7594
 
-A classification report is generated to show precision, recall, and F1-score for each class.
-Future Work
+    A classification report is generated to show precision, recall, and F1-score for each class.
+
 
 ## Future Work:
 
