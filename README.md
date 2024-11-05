@@ -21,18 +21,13 @@ To run this project, you need to have the following libraries installed:
 - `scikit-learn`
 - `numpy`
 
-You can install the required libraries using pip:
 
-```bash
-pip install pandas tensorflow scikit-learn numpy
-
-Usage
+## Usage
 
     Download the student-loans.csv dataset.
     Update the file path in the script to point to the location of the dataset.
     Run the Python script to train the neural network model and evaluate its performance.
-
-Data Description
+## Data Description
 
 The dataset consists of the following columns:
 
@@ -49,7 +44,7 @@ The dataset consists of the following columns:
     financial_aid_score: Score based on financial aid received.
     credit_ranking: Target variable indicating repayment success (1: Successful, 0: Not Successful).
 
-Model Architecture
+## Model Architecture
 
 The model is a deep neural network with the following architecture:
 
@@ -70,14 +65,16 @@ Total params: 181
 Trainable params: 181
 Non-trainable params: 0
 _________________________________________________________________
-Evaluation Metrics
+
+
+## Evaluation Metrics
 
 The model's performance was evaluated using:
 
     Loss: Binary Crossentropy
     Accuracy: Overall accuracy of predictions on the test dataset
 
-Results
+## Results
 
 The model achieved the following metrics on the test data:
 
@@ -87,7 +84,7 @@ The model achieved the following metrics on the test data:
 A classification report is generated to show precision, recall, and F1-score for each class.
 Future Work
 
-Future improvements may include:
+## Future improvements may include:
 
     Experimenting with different neural network architectures.
     Fine-tuning hyperparameters to enhance model performance.
